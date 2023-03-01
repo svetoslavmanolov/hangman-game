@@ -27,7 +27,7 @@ export function HangmanWord({ guessedLetters, wordToGuess, reveal = false }: Han
                                 : 'hidden',
                                 color: 
                                 !guessedLetters.includes(letter) && reveal 
-                                ? 'red'
+                                ? 'orange'
                                 : 'black'
                         }}>
                             {letter}
